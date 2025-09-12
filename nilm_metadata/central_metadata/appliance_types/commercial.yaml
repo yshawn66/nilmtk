@@ -1,0 +1,25 @@
+Commercial appliance:
+  parent: appliance
+
+
+#------------- HVAC ------------------------
+
+AHU: 
+  parent: Commercial appliance
+  
+elevator:
+  parent: Commercial appliance
+
+#------------- Industrial ------------------------
+
+plug-in electric vehicle station:
+  parent: Commercial appliance
+
+photovoltaic system total power:
+  parent: Commercial appliance
+
+cooling systems total power:
+  parent: Commercial appliance
+
+combined heat and power total:
+  parent: Commercial appliance
